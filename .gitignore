@@ -1,0 +1,15 @@
+# Pliki wykonywalne C++
+*.out
+*.exe
+*.o
+
+# Pliki wykonywalne bez rozszerzenia
+program
+operator_overloading
+
+# Foldery kompilacji
+build/
+cmake-build-*/
+
+# macOS
+.DS_Store
