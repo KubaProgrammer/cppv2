@@ -1,0 +1,11 @@
+# Pliki wykonywalne i kompilacji
+*.out
+*.exe
+*.o
+program
+
+# Folder kompilacji
+build/
+
+# macOS
+.DS_Store
