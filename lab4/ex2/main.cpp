@@ -12,4 +12,10 @@ int main(){
     std::cout<<"The area of rectangle is: "<<rectangle.area()<<std::endl;
     std::cout<<"The area of square is: "<<square.area()<<std::endl;
     std::cout<<"The area of circle is: "<<circle.area()<<std::endl;
+
+    rectangle.setDim(0, 9);
+    square.setSide(5);
+    
+    std::cout<<"The area of square is: "<<square.area()<<std::endl;
+    std::cout<<"The area of rectangle is: "<<rectangle.area()<<std::endl;   
 }
