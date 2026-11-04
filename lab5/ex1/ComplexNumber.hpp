@@ -49,7 +49,7 @@ public:
     ComplexNumber& operator/=(const ComplexNumber& c) {
         const auto denominator = c.x * c.x + c.y * c.y;
         if (denominator == 0) {
-            throw std::domain_error("Dzielenie przez zero zespolone");
+            throw std::domain_error("You cannot devide by 0");
         }
         const auto newRe = (x * c.x + y * c.y) / denominator;
         const auto newIm = (y * c.x - x * c.y) / denominator;
